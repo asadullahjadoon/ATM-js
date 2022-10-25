@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <script>
+    function calcNumbers(result){
+    form.displayResult.value=form.displayResult.value+result;
+    
+    }
+    function password_validation(){
+
+        var getpass=document.getElementById("password").value;
+        var message=document.getElementById("message");
+        var icon=document.getElementById("icon");
+
+
+        if(getpass.length < 4){
+            message.innerHTML="you password need to be atleast 4 character please enter a smallar one."
+        }
+
+        else{
+            message.innerHTML=""
+
+        }
+    }
+    </script>
+    <div class="container">
+    <form name="form">
+    <div class="display">
+    <input type="text" placeholder="0" name="displayResult"/>
+    <span id="icon"></span>
+    <p id="message"></p>
+    </div>
+    <div class="buttons">
+      <div class="row">
+        <input type="button" name="b1" value="1" onClick="calcNumbers(b1.value)"> 
+        <input type="button" name="b2" value="2" onClick="calcNumbers(b2.value)">
+        <input type="button" name="b3" value="3" onClick="calcNumbers(b3.value)">
+    </div>
+    
+    <div class="row">
+    <input type="button" name="b4" value="4" onClick="calcNumbers(b4.value)">
+      <input type="button" name="b5" value="5" onClick="calcNumbers(b5.value)">
+      <input type="button" name="b6" value="6" onClick="calcNumbers(b6.value)">
+    </div>
+    
+    <div class="row">
+        <input type="button" name="b7" value="7" onClick="calcNumbers(b7.value)">
+        <input type="button" name="b8" value="8" onClick="calcNumbers(b8.value)">
+        <input type="button" name="b9" value="9" onClick="calcNumbers(b9.value)">
+        <button class="submit-btn" type=""  id="password" onkeyup="password_validation()">Submit</button>
+
+        </div>
+    </div>
+
+    
+    </form>
+    
+    </div> -->
+ 
+
+ 
+
+<div  class="buttons">
+
+    <div class="main-2">
+
+        <div class=" ">
+            <input placeholder="Enter you Code" id="number_input"  maxlength = "4" type="search" size="=4" id="myText" class="" type="text"  value="">
+        </div>  
+
+<div id="box-container" >
+    <button   id='btn' value='1' class=" box-1 box">1</button>
+    <button   id='btn2'  value='2' class="box-1 box">2</button>
+    <button id='btn3'  value='3' class="box-1 box">3</button><br>
+    <button  id='btn4'  value='4' class=" box-1 box">4</button>
+    <button   id='btn5'  value='5' class=" box-1 box">5</button>
+    <button   id='btn6'  value='6' class=" box-1 box">6</button><br>
+    <button  id='btn7' value='7' class=" box-1 box">7</button>
+    <button   id='btn8'  value='8' class="  box-1 box">8</button>
+    <button  id='btn9'  value='9' class=" box-1 box ">9</button>
+</div>
+<div class="flex justify-center gap-4">
+    <button class="buton" onclick="myFunction() " >Submit</button>
+    <button class="buton1" onclick="delete_num()" >Back Space</button>
+    <input class="buton2" onclick="delete_num()" value=" Del" id="erase"  class="py-2 px-4  bg-blue-500 rounded-md" type="button">
+
+</div>
+
+</div>
+</div>
+<script src="/index.js"></script>
+
+
+   </body>
+</html>
